@@ -1,0 +1,8 @@
+<?php
+define(AUTH_URI,'AUTH用のURIを入力します。');
+define(TOKEN_URI,'トークン取得用URIを入力します。');
+
+define(REDIRECT_URI,'コールバック用のURIを入力します。');
+
+define(CLIENT_ID, ''); //google認証のclientIDをセットします。
+define(CLIENT_SECRET, ''); //google認証のClient Passwordをセットします。

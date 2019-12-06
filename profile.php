@@ -13,7 +13,7 @@ $data = [
 ];
 
 // ユーザー情報取得
-$resp = file_get_contents('https://www.googleapis.com/oauth2/v1/userinfo' . '?' . http_build_query($params));
+$resp = file_get_contents('https://www.googleapis.com/oauth2/v1/userinfo' . '?' . http_build_query($data));
 
 ?>
 
